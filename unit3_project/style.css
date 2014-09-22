@@ -5,13 +5,11 @@ body {
   background-position: fixed;
   color: white;
   font-family: helvetica;
-
 }
 
-img src= logo-taasky1.png {
-  text-align: left;
-  position: fixed;
-  margin: 50px;
+#logo-taasky1.png {
+	margin: 50px;
+
 }
 
 hr {
