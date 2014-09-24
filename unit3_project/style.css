@@ -4,8 +4,7 @@
   	background-repeat:repeat-x;
     width: auto;
     margin-top: 0px;
-	margin-left: 0px;
-	border-style: none;
+    margin-left: 0px;
 }
 
 #logo {
@@ -14,17 +13,18 @@
 }
 
 body {
-  background-image: url("imgs/background.jpg");
-  background-size: cover;
-  background-position: fixed;
+  	text-align: left;
+  	background-image: url("imgs/background.jpg");
+  	background-size: cover;
+  	background-position: center;
 }
 
 hr {
-  color: #ff706e;
-  margin-left: 100px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  width: 30px;
+  	color: #ff706e;
+  	margin-left: 100px;
+  	margin-top: 20px;
+  	margin-bottom: 15px;
+  	width: 30px;
 }
 
 p {
@@ -32,7 +32,6 @@ p {
 	margin-left: 100px;
 	color: white;
 	font-family: helvetica;
-
 }
 
 a {
