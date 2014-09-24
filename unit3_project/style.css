@@ -1,28 +1,40 @@
-body {
-  text-align: left;
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: fixed;
-  color: white;
-  font-family: helvetica;
-  padding-left: 100px;
+#header {
+	background-image: url("imgs/stripes1.png");
+	background-position: center top;
+  	background-repeat:repeat-x;
+    width: auto;
+    margin-top: 0px;
+	margin-left: 0px;
+	border-style: none;
 }
 
-header {
-	background: url("stripes1.png");
-	padding-left: 0px;
-	padding-top: 0px;
-	border-image-repeat: repeat;
+#logo {
+	margin-top: 250px;
+	margin-left: 100px;
+}
+
+body {
+  background-image: url("imgs/background.jpg");
+  background-size: cover;
+  background-position: fixed;
 }
 
 hr {
-  color: ff706e
-  text-align: left;
-  margin: 0px;
+  color: #ff706e;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   width: 30px;
 }
 
 p {
 	font-size: 20px;
-	text-indent: 0px;
+	margin-left: 100px;
+	color: white;
+	font-family: helvetica;
+
+}
+
+a {
+	margin-left: 100px;
 }
