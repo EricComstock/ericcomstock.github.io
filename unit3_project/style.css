@@ -1,10 +1,8 @@
 #header {
 	background-image: url("imgs/stripes1.png");
-	background-position: center top;
+	background-position: left top;
   	background-repeat:repeat-x;
-    width: auto;
-    margin-top: 0px;
-    margin-left: 0px;
+    width: 100%;
 }
 
 #logo {
@@ -16,15 +14,20 @@ body {
   	text-align: left;
   	background-image: url("imgs/background.jpg");
   	background-size: cover;
-  	background-position: center;
+  	background-position: right-bottom;
+  	background-repeat: no-repeat;
+  	background-color: #535a6a
 }
 
 hr {
-  	color: #ff706e;
   	margin-left: 100px;
   	margin-top: 20px;
   	margin-bottom: 15px;
   	width: 30px;
+  	height: 2px;
+  	border: 1px solid #ff706e;
+  	border-top: 1px solid #ff706e;
+  	border-bottom: 1px solid #ff706e;
 }
 
 p {
