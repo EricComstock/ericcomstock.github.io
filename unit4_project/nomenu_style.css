@@ -1,0 +1,58 @@
+body {
+  	width:90%;
+  	background: url("assets/restaurant_image.jpg") no-repeat;
+  	background-size: cover;
+  	background-position: right-bottom;
+  	background-attachment: local;
+  	margin: 0 auto;
+  	text-align: center;
+  	padding-top: 100px; }
+
+#content {
+	font-family: helvetica, Arial, verdana;
+	color: white;
+	border: 1px;
+	overflow: auto; }
+
+#logo {
+	border: 1px;
+	margin: 1%; }
+
+.entree {
+	width: 31.3%;
+	float: left;
+	margin: 1%; }
+
+.contact {
+	width: 31.3%;
+	float: left;
+	margin: 1%; }	
+
+
+.wine {
+	width: 31.3%;
+	float: right;
+	margin-right: 0%; }
+
+h1 {
+	padding-top: 200px;
+	font-size: 25px;
+	font-family: helvetica, Arial, Verdana, sans-serif;
+	color: white; }
+
+hr {
+	background-color: #FFFFFF;
+  	border: none;
+  	width: 100px;
+  	height: 2px;
+  	margin-top: 20px;
+  	margin-bottom: 20px; } 	
+
+p {
+	font-family: helvetica;
+	text-align: center;
+	font-size: 14px;
+	color: white; }
+
+footer {
+	padding-top: 40px; }	
