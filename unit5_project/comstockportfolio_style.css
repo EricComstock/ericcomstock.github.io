@@ -1,0 +1,36 @@
+#wrapper { 
+	width: 1024px;
+	margin: 0 auto; 
+}
+
+#logo {
+  float: left;
+}
+
+#nav {
+  float: right;
+  width: 50%;
+  height: 100px;
+  text-align: left;
+  background: #FFD004;
+}
+
+.Po {
+  color: white;
+}
+
+a {
+  font-family: ‘Source Code Pro’, Arial, serif; font-weight: 400;
+  font-size: 36px;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif; font-weight: 700;
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif; font-weight: 400;
+  font-size: 18px;
+ } 
+
