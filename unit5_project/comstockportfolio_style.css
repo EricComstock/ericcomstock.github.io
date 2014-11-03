@@ -5,32 +5,127 @@
 
 #logo {
   float: left;
+  padding: 55px 10px 0 50px;
 }
 
 #nav {
-  float: right;
-  width: 50%;
-  height: 100px;
-  text-align: left;
-  background: #FFD004;
+  font-family:‘Source Code Pro’, Arial, serif; font-weight: 400;
+  font-size: 75px;
 }
 
-.Po {
-  color: white;
+#nav #about a:link { 
+  background-color: #4EBFC4; 
+  padding: 25px;
+  height: 100px;
+  width: 100px;
+}
+
+#nav #about a:hover:before { 
+  content: "About Eric"; 
+  font-family:‘Source Sans Pro’, Arial, serif; font-weight: 700;
+  font-size: 16px;
+}
+
+#nav #illustration a:link { 
+  background-color: #09B169; 
+  padding: 25px;
+  height: 100px;
+  width: 100px;
+}
+
+#nav #design a:link { 
+  background-color: #F28497; 
+  padding: 25px;
+  height: 100px;
+  width: 100px;
+}
+
+#nav #art a:link { 
+  background-color: #FFD004; 
+  padding: 25px;
+  height: 100px;
+  width: 30px;
+}
+
+#nav #contact a:link { 
+  background-color: #EE4738; 
+  padding: 25px;
+  height: 100px;
+  width: 100px;
 }
 
 a {
-  font-family: ‘Source Code Pro’, Arial, serif; font-weight: 400;
-  font-size: 36px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  float: right;
+}
+
+#content {
+  clear: both;
+  width: 100%;
+  height: 100%;
+  background-color: #DDDBDB;
+}
+
+#AboutEric {
+  float: left;
+  background-color: white;
+  width: 479px;
+  height: 700px;
+  padding: 20px 20px 20px 20px;
+  margin: 25px 25px 25px 25px;
 }
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif; font-weight: 700;
-  font-size: 2em;
+  font-size: 1.5em;
+  letter-spacing: 1px;
 }
+
+#ericphoto {
+  float: left;
+  padding: 20px 20px 20px 0px;
+}
+
 
 p {
   font-family: 'Source Sans Pro', sans-serif; font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: white;
+  padding-top: 20px;
  } 
+
+ #Testimonials {
+  float: right;
+  width: 275px;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  margin: 25px 25px 25px 25px;
+ }
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif; font-weight: 400;
+  font-size: 16px;
+}
+
+#footer {
+  position: absolute;
+  text-align: center;
+  bottom:0;
+  width: 1024px;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  margin: 25px 25px 25px 25px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
 
